@@ -10,7 +10,7 @@ let search = document.getElementById('search');
 let API = '9bcf311b051e4e9d863141943240304';
 let base_url = `http://api.weatherapi.com/v1/current.json?key=${API}`;
 let icon = `https://openweathermap.org/img/wn/`;
-let defoultCity = 'riyadh,sa';
+let defoultCity = 'dammam,sa';
 
 window.onload = function () {
 	navigator.geolocation.getCurrentPosition(
